@@ -1,1 +1,7 @@
-# pwa-lifting
+# PwaLifting
+
+```
+$ npm install
+$ npm start
+$ npm run build
+```
