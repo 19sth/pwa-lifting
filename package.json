@@ -1,8 +1,8 @@
 {
-  "name": "pwa-pwa-lifting",
+  "name": "pwa-lifting",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/pwa-pwa-lifting/",
+  "homepage": "/pwa-lifting/",
   "scripts": {
     "start": "react-scripts start",
     "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",

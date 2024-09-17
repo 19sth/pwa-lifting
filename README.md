@@ -1,4 +1,4 @@
-# PwaLifting
+# Lifting
 
 ```
 $ npm install

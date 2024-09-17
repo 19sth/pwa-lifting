@@ -1,7 +1,7 @@
 import { Action, Dispatch, configureStore } from "@reduxjs/toolkit";
 import pageReducer from "./slicePage";
 
-export const KEY_LOCALSTORAGE = "app-state-pwa-lifting"
+export const KEY_LOCALSTORAGE = "app-state-lifting"
 
 const localStorageMiddleware = ({ getState }: { getState: () => any }) => {
   return (next: Dispatch) => (action: Action) => {

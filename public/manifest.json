@@ -1,24 +1,24 @@
 {
-  "short_name": "PwaLifting",
-  "name": "PwaLifting",
+  "short_name": "Lifting",
+  "name": "Lifting",
   "description" : "",
-  "start_url": "/pwa-pwa-lifting",
+  "start_url": "/pwa-lifting",
   "display": "standalone",
   "theme_color": "#fefefe",
   "background_color": "#fefefe",
   "icons": [
     {
-      "src": "https://fakeimg.pl/16x16/fde047/000/?font=bebas&font_size=16&text=P",
+      "src": "https://fakeimg.pl/16x16/fde047/000/?font=bebas&font_size=16&text=L",
       "sizes": "16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://fakeimg.pl/192x192/fde047/000/?font=bebas&font_size=192&text=P",
+      "src": "https://fakeimg.pl/192x192/fde047/000/?font=bebas&font_size=192&text=L",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://fakeimg.pl/512x512/fde047/000/?font=bebas&font_size=512&text=P",
+      "src": "https://fakeimg.pl/512x512/fde047/000/?font=bebas&font_size=512&text=L",
       "type": "image/png",
       "sizes": "512x512"
     }
