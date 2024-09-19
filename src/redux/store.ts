@@ -1,5 +1,6 @@
 import { Action, Dispatch, configureStore } from "@reduxjs/toolkit";
 import pageReducer from "./slicePage";
+import definitionReducer from "./sliceDefinition";
 
 export const KEY_LOCALSTORAGE = "app-state-lifting"
 
@@ -20,6 +21,7 @@ const reHydrateStore = () => {
 export const store = configureStore({
   reducer: {
     page: pageReducer,
+    definition: definitionReducer,
   },
   preloadedState: reHydrateStore(),
   middleware: (getDefaultMiddleware: any) =>
